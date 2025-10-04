@@ -30,7 +30,7 @@ SCALER_PATH = "scaler.pkl"
 
 st.set_page_config(page_title="TOI Classifier (FP vs PC)", layout="centered")
 
-st.title("TOI Classifier: False Positive (FP) vs Planet Candidate (PC)")
+st.title("Luminex - Hunting Planets: False Positive (FP) vs Planet Candidate (PC)")
 
 st.caption("""
 This model predicts whether a **TESS Object of Interest (TOI)** is a **False Positive (FP)** or a **Planet Candidate (PC)**.
